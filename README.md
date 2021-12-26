@@ -7,43 +7,46 @@ https://wiki.keyestudio.com/Ks0251_keyestudio_4-channel_Relay_Shield
 /*
   DANCE OFF
 
-  This is a HOW-TO for the 
+  This is a how to for the 
   Ks0251 keyestudio 4-channel Relay Shield
 
   I believe they did not have the right
   sample to teach others. So I made this one.
   
 */
+int PINDa = 4;
+int PINCb = 5;
+int PINBc = 6;
+int PINAd = 7;
+
 void setup() {
-  // Feel free to COMMENT out each one.
-  // So you can test them one by one.
-  pinMode(4, OUTPUT); // 4th Relay
-  pinMode(5, OUTPUT); // 3rd Relay
-  pinMode(6, OUTPUT); // 2nd Relay
-  pinMode(7, OUTPUT); // 1st Relay
+  pinMode(PINDa, OUTPUT); // 4th Relay
+  pinMode(PINCb, OUTPUT); // 3rd Relay
+  pinMode(PINBc, OUTPUT); // 2nd Relay
+  pinMode(PINAd, OUTPUT); // 1st Relay
 }
 
 void loop() {
   // 4th Relay
-  digitalWrite(4, HIGH); //   
+  digitalWrite(PINDa, HIGH); //   
   delay(100); //                       
-  digitalWrite(4, LOW); //    
+  digitalWrite(PINDa, LOW); //    
   delay(100); // 
   // 3rd Relay  
-  digitalWrite(5, HIGH); //   
+  digitalWrite(PINCb, HIGH); //   
   delay(200); //                       
-  digitalWrite(5, LOW); //    
+  digitalWrite(PINCb, LOW); //    
   delay(200); // 
   // 2nd Relay
-  digitalWrite(6, HIGH); //   
+  digitalWrite(PINBc, HIGH); //   
   delay(300); //                       
-  digitalWrite(6, LOW); //    
+  digitalWrite(PINBc, LOW); //    
   delay(300); // 
   // 1st Relay
-  digitalWrite(7, HIGH); //   
-  delay(400); //                       
-  digitalWrite(7, LOW); //    
-  delay(400); //                     
+  digitalWrite(PINAd, HIGH); //   
+  delay(100); //                       
+  digitalWrite(PINAd, LOW); //    
+  delay(100); //                     
 }
 
 ```
