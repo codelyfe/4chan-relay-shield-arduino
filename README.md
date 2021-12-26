@@ -15,6 +15,8 @@ https://wiki.keyestudio.com/Ks0251_keyestudio_4-channel_Relay_Shield
   
 */
 void setup() {
+  // Feel free to COMMENT out each one.
+  // So you can test them one by one.
   pinMode(4, OUTPUT); // 4th Relay
   pinMode(5, OUTPUT); // 3rd Relay
   pinMode(6, OUTPUT); // 2nd Relay
