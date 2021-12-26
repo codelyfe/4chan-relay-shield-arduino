@@ -7,7 +7,7 @@ https://wiki.keyestudio.com/Ks0251_keyestudio_4-channel_Relay_Shield
 /*
   DANCE OFF
 
-  This is a how to for the 
+  This is a HOW-TO for the 
   Ks0251 keyestudio 4-channel Relay Shield
 
   I believe they did not have the right
