@@ -14,10 +14,10 @@ https://wiki.keyestudio.com/Ks0251_keyestudio_4-channel_Relay_Shield
   sample to teach others. So I made this one.
   
 */
-int PINDa = 4;
-int PINCb = 5;
-int PINBc = 6;
-int PINAd = 7;
+  int PINDa = 4;
+  int PINCb = 5;
+  int PINBc = 6;
+  int PINAd = 7;
 
 void setup() {
   pinMode(PINDa, OUTPUT); // 4th Relay
@@ -48,5 +48,4 @@ void loop() {
   digitalWrite(PINAd, LOW); //    
   delay(100); //                     
 }
-
 ```
